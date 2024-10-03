@@ -1685,6 +1685,123 @@ a {
 }
 /* Bora Pricing  Mobil Bitiş */
 
+/* Bora Blog Mobile Başlangıç */
+
+.all-in-container {
+  width: 375px;
+  margin: auto;
+}
+
+.blog_footer {
+  background-color: #151b28;
+}
+
+.blog_footer-top {
+  padding: 32px 16px;
+  border-bottom: 1px solid #2e3545;
+}
+
+.blog_footer-top h3 {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: -0.02em;
+  color: #f9f9f9;
+  margin-bottom: 16px;
+}
+
+.blog_footer-top-btn {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.blog_footer-top-btn a:first-child {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 22px;
+  color: #ffffff;
+  padding: 13px 144px;
+  background-color: #437ef7;
+  border-radius: 6px;
+  padding-bottom: 16px;
+}
+
+.blog_footer-top-btn a:last-child {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 22px;
+  color: #f9f9f9;
+  padding: 13px 144px;
+  border-radius: 6px;
+  background-color: #2c3444;
+}
+
+.blog_footer-nav {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 24px 64px;
+  padding-inline: 16px;
+  margin-top: 24px;
+}
+
+.blog_footer-logo {
+  display: grid;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.blog_footer-logo p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.10000000149011612px;
+  color: #a5acba;
+}
+
+.blog_footer-nav ul li {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: -0.10000000149011612px;
+  color: #a5acba;
+  padding-bottom: 12px;
+}
+
+.blog_footer-nav ul li:first-child {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: -0.10000000149011612px;
+  color: #f9f9f9;
+  margin-bottom: 4px;
+}
+
+.blog_footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 24px;
+  padding-inline: 16px;
+  border-top: 1px solid #2e3545;
+}
+
+.blog_footer-bottom-right p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.10000000149011612px;
+  color: #a5acba;
+}
+
+.blog_footer-bottom-socials {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  margin-bottom: 32px;
+}
+
+/* Bora Blog Mobile Bitiş */
+
 @media screen and (max-width: 767.98px) {
   .btn:not(.btn--inline) {
     width: 100%;
@@ -2212,6 +2329,46 @@ a {
     display: none;
   }
   /* Bora Pricing  Tablet Bitiş */
+
+  /* Bora Blog Tablet Başlangıç */
+  .all-in-container {
+    width: 100%;
+    margin: auto;
+  }
+
+  .blog_footer-top {
+    padding: 40px 32px;
+  }
+
+  .blog_footer-top h3 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 42px;
+    letter-spacing: -0.01em;
+  }
+
+  .blog_footer-top-btn {
+    flex-direction: row;
+  }
+
+  .blog_footer-top-btn a:first-child {
+    padding: 12px 18px;
+  }
+
+  .blog_footer-top-btn a:last-child {
+    padding: 12px 18px;
+  }
+
+  .blog_footer-nav {
+    grid-template-columns: auto auto auto;
+    padding-inline: 32px;
+  }
+
+  .blog_footer-logo {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+  /* Bora Blog Tablet Bitiş */
 }
 /* DESKTOP */
 @media screen and (min-width: 1280px) {
@@ -2787,4 +2944,28 @@ a {
   }
 
   /* Bora Pricing  Desktop Bitiş */
+
+  .all-in-container {
+    width: 100%;
+    margin: auto;
+  }
+
+  .blog_footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 80px;
+    border-top: 1px solid #2e3545;
+  }
+
+  .blog_footer-logo {
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+
+  .blog_footer-nav {
+    grid-template-columns: repeat(5, 1fr);
+    padding-inline: 80px;
+  }
+  /* Bora Blog Desktop Bitiş */
 }
