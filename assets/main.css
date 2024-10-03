@@ -2033,6 +2033,7 @@ a {
   margin-top: 24px;
   margin-bottom: 32px;
 }
+/* Kerem BLOG  Mobil bitiş */
 @media screen and (max-width: 767.98px) {
   .btn:not(.btn--inline) {
     width: 100%;
@@ -2914,6 +2915,7 @@ a {
   .gestalt {
     display: none;
   }
+  /* Kerem BLOG  tablet bitiş */
 }
 /* DESKTOP */
 @media screen and (min-width: 1280px) {
@@ -3875,4 +3877,5 @@ a {
   .gestalt {
     display: block;
   }
+  /* kerem blog desktop bitiş */
 }
