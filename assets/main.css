@@ -1130,6 +1130,234 @@ header {
 }
 /* BORA BLOG-MOBİLE CSS SON */
 
+/* Bora Pricing  Mobil Başlangıç */
+.pricing_container {
+  margin: auto;
+  width: 100%;
+}
+
+.pricing_carts {
+  padding: 32px 18px;
+}
+
+.pricing_cart-3-tablet {
+  display: none;
+}
+.pricing_cart-1 img {
+  margin-bottom: 16px;
+}
+
+.pricing_cart-1 h4 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: -0.02em;
+  margin-bottom: 8px;
+  color: #272d37;
+}
+
+.pricing_cart-1 p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.10000000149011612px;
+  margin-bottom: 40px;
+  color: #5f6d7e;
+}
+
+.pricing_cart-2 img {
+  margin-bottom: 16px;
+}
+
+.pricing_cart-2 h4 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: -0.02em;
+  margin-bottom: 8px;
+  color: #272d37;
+}
+
+.pricing_cart-2 p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.10000000149011612px;
+  margin-bottom: 40px;
+  color: #5f6d7e;
+}
+.pricing_cart-3 img {
+  margin-bottom: 16px;
+}
+
+.pricing_cart-3 h4 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: -0.02em;
+  margin-bottom: 8px;
+  color: #272d37;
+}
+
+.pricing_cart-3 p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.10000000149011612px;
+  margin-bottom: 16px;
+  color: #5f6d7e;
+}
+
+.pricing_cart-3 {
+  margin-bottom: 40px;
+}
+
+.pricing_cart-3 a {
+  text-decoration: none;
+  color: #437ef7;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 22px;
+  text-align: left;
+}
+
+.pricing_cart-3-tablet img {
+  margin-bottom: 16px;
+}
+
+.pricing_cart-3-tablet h4 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: -0.02em;
+  margin-bottom: 8px;
+  color: #272d37;
+}
+
+.pricing_cart-3-tablet p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.10000000149011612px;
+  margin-bottom: 16px;
+  color: #5f6d7e;
+}
+
+.pricing_cart-3-tablet {
+  margin-bottom: 40px;
+}
+
+.pricing_cart-3-tablet a {
+  text-decoration: none;
+  color: #437ef7;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 22px;
+  text-align: left;
+}
+.pricing_cart-4 img {
+  margin-bottom: 16px;
+}
+
+.pricing_cart-4 h4 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: -0.02em;
+  margin-bottom: 8px;
+  color: #272d37;
+}
+
+.pricing_cart-4 p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.10000000149011612px;
+  margin-bottom: 40px;
+  color: #5f6d7e;
+}
+
+.pricing_redefining-info {
+  padding: 32px 16px;
+  text-align: center;
+}
+
+.pricing_redefining-info h2 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.02em;
+  color: #272d37;
+  margin-bottom: 12px;
+}
+
+.pricing_redefining-info p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.10000000149011612px;
+  color: #5f6d7e;
+}
+
+.pricing_redefining-content {
+  padding-inline: 16px;
+}
+
+.pricing_redefining-content p {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: -0.10000000149011612px;
+  color: #437ef7;
+  margin-bottom: 8px;
+}
+
+.pricing_redefining-content h2 {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: -0.02em;
+  color: #272d37;
+  margin-bottom: 16px;
+}
+
+.pricing_redefining-content span {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.10000000149011612px;
+  color: #5f6d7e;
+}
+
+.pricing_content-btn {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.pricing_content-btn a {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 22px;
+  color: #ffffff;
+  padding: 12px 18px;
+  background-color: #437ef7;
+  border-radius: 6px;
+}
+
+.pricing_content-image-tablet {
+  display: none;
+}
+
+.pricing_content-image-desktop {
+  display: none;
+}
+
+.pricing_content-image {
+  padding-inline: 16px;
+}
+/* Bora Pricing  Mobil Bitiş */
+
 @media screen and (max-width: 767.98px) {
   .btn:not(.btn--inline) {
     width: 100%;
@@ -1374,6 +1602,78 @@ header {
     gap: 16px;
   }
   /* BORA BLOG-CSS TABLET BİTİŞ */
+
+  /* Bora Pricing  Tablet Başlangıç */
+  .pricing_container {
+    margin: auto;
+    width: 100%;
+  }
+
+  .pricing_carts {
+    padding: 40px 32px;
+    display: flex;
+    gap: 32px;
+  }
+  .pricing_cart-3 {
+    display: none;
+  }
+  .pricing_cart-3-tablet {
+    display: block;
+  }
+
+  .pricing_redefining {
+    padding-inline: 32px;
+  }
+
+  .pricing_redefining-info {
+    padding: 40px 32px;
+    padding-inline: 0;
+  }
+
+  .pricing_redefining-info h2 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -0.02em;
+    margin-bottom: 16px;
+  }
+
+  .pricing_redefining-content {
+    padding-inline: 0;
+  }
+
+  .pricing_redefining-info p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.10000000149011612px;
+  }
+
+  .pricing_redefining-content h2 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 42px;
+    letter-spacing: -0.01em;
+  }
+
+  .pricing_redefining-content span {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.10000000149011612px;
+  }
+
+  .pricing_content-image {
+    display: none;
+  }
+  .pricing_content-image-tablet {
+    display: block;
+  }
+  .pricing_content-image-desktop {
+    display: none;
+  }
+  /* Bora Pricing  Tablet Bitiş */
+
 }
 /* DESKTOP */
 @media screen and (min-width: 1280px) {
@@ -1645,4 +1945,47 @@ header {
     gap: 16px;
   }
   /* BORA BLOG-CSS TABLET BİTİŞ */
+
+  /* Bora Pricing  Desktop Başlangıç */
+  .pricing_container {
+    margin: auto;
+    width: 100%;
+  }
+
+  .pricing_carts {
+    padding: 64px 80px;
+  }
+
+  .pricing_redefining {
+    padding-inline: 0;
+  }
+  .pricing_redefining-info {
+    padding-inline: 320px;
+  }
+
+  .pricing_redefining-bottom {
+    display: flex;
+    padding: 64px 80px;
+  }
+
+  .pricing_redefining-content {
+    width: Fill (516px) px;
+    height: Hug (242px) px;
+    padding: 116px 140px 116px 32px;
+  }
+
+  .pricing_content-image-desktop {
+    margin-right: 32px;
+  }
+  .pricing_content-image {
+    display: none;
+  }
+  .pricing_content-image-tablet {
+    display: none;
+  }
+  .pricing_content-image-desktop {
+    display: block;
+  }
+
+/* Bora Pricing  Desktop Bitiş */
 }
