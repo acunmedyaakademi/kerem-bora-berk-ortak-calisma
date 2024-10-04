@@ -3254,8 +3254,6 @@ a {
   }
   .desktopnav {
     display: flex;
-    margin-right: 350px;
-    margin-left: 64px;
     gap: 32px;
   }
   .desktopnav a {
@@ -3263,6 +3261,9 @@ a {
     font-weight: 600;
     line-height: 22px;
     color: #272d37;
+  }
+  .login-btn{
+    margin-left: 100px;
   }
   .login-btn a {
     color: #437ef7;
