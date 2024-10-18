@@ -165,7 +165,6 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 20px;
-    height: 64px;
   }
 }
 
@@ -1251,12 +1250,14 @@ header {
   text-align: center;
 }
 .the-core-header h2 {
+  margin-bottom: 12px;
   font-size: 24px;
   font-weight: 700;
   line-height: 32px;
   letter-spacing: -0.02em;
 }
 .the-core-header p {
+  color: #5F6D7E;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -2275,11 +2276,12 @@ a {
       display: none;
     }
     .tablet__logos {
+      display: flex;
+      justify-content: space-between;
       p {
         display: block;
       }
-      display: flex;
-      justify-content: space-between;
+      
     }
   }
   .logoswidth {
@@ -2350,7 +2352,7 @@ a {
     flex-direction: row;
     align-items: center;
     text-align: center;
-    gap: 42px;
+    gap: 24px;
   }
   .hero-btn a {
     color: #437ef7;
@@ -2454,9 +2456,7 @@ a {
   /* tablet about kerem bitiş */
 
   /* BORA about-CSS TABLET BAŞLANGIÇ */
-  .all-in-container {
-    padding-inline: 32px;
-  }
+  
   .demonstrate {
     padding-block: 40px 32px;
   }
@@ -3083,7 +3083,6 @@ a {
 
   header {
     .container {
-      height: 86px;
       padding: 20px 32px;
     }
   }
@@ -3104,6 +3103,13 @@ a {
     br {
       display: block;
     }
+    h1{
+      margin-top: 24px;
+      margin-bottom: 24px;
+    }
+    p{
+      margin-bottom: 36px;
+    }    
   }
 
   .showcase__img {
@@ -3378,6 +3384,7 @@ a {
     text-align: center;
   }
   .channel-header h1 {
+    margin-bottom: 16px;
     font-size: 32px;
     font-weight: 700;
     line-height: 40px;
@@ -3395,7 +3402,7 @@ a {
     display: grid;
     grid-template-columns: auto auto auto;
     flex-wrap: wrap;
-    gap: 16px;
+    gap: 32px;
   }
   .channel-item {
     background-color: #3971e7;
@@ -3542,7 +3549,7 @@ a {
     gap: 16px;
   }
   /* BORA about-CSS TABLET BİTİŞ */
-  /* desktop pricing kerem bitiş */
+  /* desktop pricing kerem başlangıç */
   .pricing_container {
     max-width: 1440px;
     padding: 0 80px;
